@@ -1,0 +1,65 @@
+.banner {
+  width: 100%;
+  min-width: 1000px;
+  height: 130px;
+  object-fit: cover;
+}
+.checkout {
+  display: flex;
+  margin: 20px;
+  background-color: #f3eded;
+}
+.img_checkout {
+  width: 260px;
+  object-fit: cover;
+  background-color: #f3eded;
+}
+
+.checkout_left {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  background-color: #fff;
+  min-width: 640px;
+  width: 100%;
+}
+.checkout_title {
+  border-bottom: 1px solid lightgray;
+  padding-bottom: 10px;
+}
+
+.checkout_right {
+  display: flex;
+  padding: 20px;
+
+  flex-direction: column;
+  margin-left: 20px;
+  min-width: 300px;
+  max-width: 300px;
+}
+.subtotal {
+  margin-top: 10px;
+  background-color: #fff;
+  padding: 20px;
+}
+.total {
+  font-size: large;
+}
+.subtotal > button {
+  margin-top: 10px;
+  background: #bc3232;
+  border-color: #bc3232;
+  color: #fff;
+  border-radius: 20px;
+  font-weight: 600;
+  border-style: solid;
+  cursor: pointer;
+  height: 31px;
+  width: 237px;
+  justify-content: center;
+  align-items: center;
+}
+.subtotal > button:hover {
+  background: #8a2525;
+  font-weight: 700;
+}

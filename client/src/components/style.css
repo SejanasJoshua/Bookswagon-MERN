@@ -1,0 +1,39 @@
+.booksJSContainer {
+  margin: 20px;
+  width: 100%;
+}
+.bookJSOuterContainer {
+  width: 100%;
+  margin: 0 10px 30px 10px;
+  display: grid;
+  padding: 10px 0;
+  grid-template-columns: 1fr 3fr;
+  border-bottom: 1px solid lightgray;
+}
+.bookJSImg {
+  /* width: 100%; */
+  height: 200px;
+  object-fit: contain;
+  border-radius: 7px;
+}
+.bookJSInfo {
+  padding: 0 30px;
+}
+.bookJSInfo button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  border-radius: 10px;
+  border: none;
+  background-color: #bc3232;
+  color: #fff;
+}
+.singleBookInfo {
+  display: flex;
+  flex-direction: column;
+}
+.singleBookAbout,
+singleBookCategories {
+  margin: 20px 0;
+  padding-bottom: 20px;
+  border-bottom: 1px solid lightgray;
+}

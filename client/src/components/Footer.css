@@ -1,0 +1,44 @@
+.footerOuterGrid {
+  display: grid;
+  grid-template-columns: 8rem 1fr 8rem;
+  background-color: #181818;
+  margin-top: 80px;
+  color: #b1b1b1;
+}
+.footerGridContainer {
+  grid-column: 2/3;
+  display: flex;
+  flex-direction: column;
+  padding: 20px 0;
+}
+.footerGridRow1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  margin-bottom: 15px;
+}
+.footerGridRow1 h6 {
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.footerGridRow1Col {
+  display: flex;
+  flex-direction: column;
+  font-size: small;
+}
+.footerGridRow1Col p {
+  margin-bottom: 0 !important;
+}
+
+.footerGridRow2 {
+  font-size: small;
+  border-top: 1px solid lightgray;
+  border-bottom: 1px solid lightgray;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin: 20px 5px;
+  padding: 5px 0;
+}
+.footerSVG svg {
+  margin: 3px;
+}

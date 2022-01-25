@@ -1,0 +1,67 @@
+.settingsOuterContainer {
+  display: grid;
+  grid-template-columns: 8rem 1fr 8rem;
+}
+.settingsContainer {
+  grid-column: 2/3;
+  margin-top: 20px;
+}
+.settingsTab {
+  margin-top: 20px;
+  margin-bottom: 40px;
+  padding: 20px;
+  border: 1px solid lightgray;
+  border-radius: 10px;
+}
+.nav-item {
+  margin: 5px 0 !important;
+  border: 1px solid lightgray;
+  border-radius: 10px 0 0 10px;
+  font-weight: 600;
+}
+.nav-link.active {
+  background-color: transparent !important;
+  color: darkred !important;
+}
+.nav-link {
+  color: black !important;
+  background-color: lightgray !important;
+}
+
+.nav-item :hover {
+  font-weight: 700;
+}
+
+/* Account Component */
+.settingsAccountContainer {
+  margin: 20px;
+}
+.settingsAccountContainer button {
+  margin: 20px;
+}
+
+/* Addresses Component */
+.settingsAddressContainer {
+  margin: 20px;
+  display: flex;
+}
+.settingsAddressSubContainer {
+  display: grid;
+  grid-template-columns: 1fr 2rem 2fr;
+  margin: 20px;
+}
+.settingsAddressSubContainer input,
+select {
+  grid-column: 3/4;
+}
+.settingsAddressSubContainer button {
+  grid-column: 3/4;
+  border-radius: 5px;
+  background-color: #4caf50;
+  border: #4caf50;
+  color: #fff;
+}
+.settingsAddressSubContainer button:hover {
+  background-color: #3b8a3e;
+  font-weight: 500;
+}

@@ -1,0 +1,33 @@
+.homeSection {
+  max-height: 33%;
+  border-top: 1px solid lightgray;
+  margin: 20px 0;
+  padding: 10px 0;
+}
+.cards {
+  display: flex;
+}
+.card {
+  margin: 0 10px;
+  width: 15rem !important;
+}
+.cardTitle {
+  font-weight: 700;
+}
+.cardImage {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 7px;
+}
+.card-price {
+  font-style: italic;
+  color: black !important;
+  font-weight: 600;
+}
+.cardInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}

@@ -1,0 +1,76 @@
+.outerContainerAdmin {
+  display: grid;
+  grid-template-columns: 8rem 1fr 8rem;
+}
+.containerAdmin {
+  grid-column: 2/3;
+  display: flex;
+  flex-direction: column;
+}
+.titleAdmin {
+  margin: 15px 0;
+  align-self: center;
+}
+.specialBooksAdmin {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid lightgray;
+  border-radius: 15px 0 0 15px;
+}
+.specialBooksAdmin a {
+  margin: 5px;
+}
+.specialBooksAdmin a:hover {
+  font-weight: 600;
+  text-decoration: underline;
+}
+
+.innerGridAdmin {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+}
+
+.innerContainerAdmin {
+  border: 1px solid lightgray;
+  border-radius: 0 20px 20px 0;
+  display: flex;
+  flex-direction: column;
+}
+.containerAdminItems {
+  width: 96%;
+  margin: 10px;
+  border: 1px solid lightgray;
+  border-radius: 10px;
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+}
+.itemImageAdmin img {
+  padding: 20px;
+  object-fit: contain;
+  /* height: 200px;
+  width: 200px; */
+}
+.itemDetailsAdminTitle {
+  margin-top: 10px;
+}
+.adminItemPara {
+  font-style: italic;
+  color: rgb(126, 126, 126);
+  font-size: small;
+}
+.itemDetailsAdminButton {
+  margin-top: 20px;
+}
+.itemDetailsAdminButton button {
+  border: none;
+  background-color: #bc3232;
+  color: #fff;
+  border-radius: 5px;
+  padding: 5px 10px;
+  font-weight: 500;
+}
+.uploadImage {
+  height: 250px;
+  object-fit: cover;
+  border: 1px solid #bc3232;
+}

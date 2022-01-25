@@ -1,0 +1,7 @@
+.sidebarItems {
+  display: flex;
+  flex-direction: column;
+}
+h5 {
+  color: darkred;
+}
